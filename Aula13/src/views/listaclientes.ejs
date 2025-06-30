@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Clientes</title>
+</head>
+<body>
+    <h5>Lista de Clientes Cadastrados</h5>
+    <ul>
+        <% clientesDoController.forEach(cliente => { %> 
+            <li>ID: <%= cliente.id %> - Nome: <%= cliente.nome %> - CNPJ: <%= cliente.cnpj %> - Data: <%= cliente.datafundacao %> </li>
+        <% }) %>
+    </ul>
+</body>
+</html>

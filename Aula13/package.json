@@ -1,0 +1,19 @@
+{
+  "name": "paula12",
+  "version": "2.0.0",
+  "description": "Projeto em Node.js para a Aula 12 de Tópicos Especiais.",
+  "license": "ISC",
+  "author": "Alex Nunes",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/controllers/index.js",
+    "dev": "nodemon src/controllers/index.js"
+  },
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "ejs": "^3.1.10",
+    "express": "^5.1.0"
+  }
+}
