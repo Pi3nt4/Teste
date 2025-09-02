@@ -1,0 +1,99 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f3fff8; 
+    color: #000000; /* Preto suave */
+    margin: 0;
+    padding: 0;
+}
+
+.login-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff; /* Branco */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #000000; /* Verde */
+    margin-bottom: 20px;
+}
+
+button, .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2ecc71; /* Verde */
+    color: #ffffff; /* Branco */
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover, .btn:hover {
+    background-color: #27ae60; /* Verde mais escuro */
+}
+
+.alert {
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.alert-danger {
+    background-color: #e74c3c; /* Vermelho */
+    color: #fff; /* Branco */
+}
+
+.form-label {
+    color: #000000; /* Preto suave */
+}
+
+input {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+input:focus {
+    border-color: #2ecc71; /* Verde */
+    outline: none;
+}
+
+a {
+    color: #2ecc71; /* Verde */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para a navbar */
+.navbar {
+    background-color: #2ecc71 !important; /* Verde */
+    border-bottom: 2px solid #27ae60 !important;
+    /* Remove transparência */
+    opacity: 1 !important;
+}
+
+.navbar-brand, .navbar-nav .nav-link {
+    color: #fff; /* Branco */
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navbar-brand:hover, .navbar-nav .nav-link:hover {
+    color: #000; /* Preto */
+}    
